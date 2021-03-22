@@ -1,0 +1,607 @@
+.App {
+  text-align: center;
+  
+}
+
+
+.page-title {
+    display:flex;
+    justify-content: center;
+    margin-top:8px;
+    padding:10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:35px;
+}
+
+.title-header {
+    padding:15px;
+}
+
+.divider {
+    border: 1px solid aquamarine;
+}
+
+.page-img {
+    margin-top:10px;
+    height:58vh;
+    background-color: white;
+    background-image: url("https://images.wallpaperscraft.com/image/travel_adventure_words_170050_2560x1080.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    position:relative
+}
+
+.home-title {
+    position: absolute;
+    color:whitesmoke;
+    border: 4px solid white;
+    padding:15px;
+    font-weight: 500;
+ 
+}
+
+
+.home-section {
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+.card-country{
+    margin-top: 8px;
+}
+
+
+.country-deck {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experiences {
+    overflow: hidden;
+    margin:0 12px 35px;
+}
+
+.overlay {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.pic-btn {
+    /* transition: .5s ease; */
+  opacity: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover {
+    opacity: 0.7;
+}
+
+.overlay:hover .pic-btn {
+    opacity: 1;
+}
+
+.text {
+  color: white;
+  background-color:rgba(	236, 236, 236, 0.8);
+  border:5px solid white;
+  padding: 16px 32px;
+  font-size:25px;
+}
+
+#box1 {
+    background-image: url("./images/accom.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height:45vh;
+    border: 8px solid white;
+    padding:0;
+}
+
+#box2 {
+    background-image: url("./images/friends-eating.jpg");
+    background-size:cover;
+    height:45vh;
+    border: 8px solid white;
+    padding:0;
+}
+
+#box3 {
+    background-image: url("./images/activity.jpg");
+    background-size: cover;
+    background-position: center;
+    height:45vh;
+    border: 8px solid white;
+    padding:0;
+}
+
+#page-img-aus {
+    margin-top: 12px;
+    background-image: url("https://i.pinimg.com/736x/0f/2a/97/0f2a977945478d0905cdf03e9b0bbd82.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width:100%; */
+    /* height:100%; */
+    height: 35vh;
+    background-color: orange;
+    
+}
+
+.country-name {
+    margin-top: 20px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.page-img-header {
+    border:1px solid black;
+    background-color: #f0b3ff;
+    height:55vh;
+}
+
+.country-img-aus {
+    background-image: url("https://wallpaperaccess.com/full/889209.png");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+.country-img-jap {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/kyoto-background-10.jpg?fit=1920%2C1080");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+.country-img-tai {
+    background-image: url("https://wallpaperaccess.com/full/300869.jpg");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+.country-img-kor {
+    background-image: url("https://img.fishtailtravel.com/ContentImages/KOREA-JAPAN-0-2048x1217.jpeg");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+.country-img-thai {
+    background-image: url("https://wallpapercave.com/wp/wp2899843.jpg");
+    position:relative;
+    background-position:bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+/* .country {
+    
+    display:flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+} */
+
+.header-text {
+    /* position: absolute; */
+    left:50px;
+    top:50px;
+
+}
+
+.review-form-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.update, .submit{
+    margin-right: 10px;
+}
+
+
+.review-body {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.filter-section {
+    width: 100%;
+    overflow: auto;
+    margin: 22px 0 10px;
+}
+
+.country-btns {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.filter-result {
+    margin: 17px 10px 30px;
+    border:2px solid aquamarine;
+    height:55vh;
+    background-color:white ;
+    position:relative;
+}
+
+.page-title-display {
+    display:flex;
+    justify-content: center;
+    margin-top:14px;
+    padding:10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:28px;
+}
+
+.filter-img {
+    position: absolute;
+    border: 1px solid white;
+    /* border-right-color: black; */
+    height:100%;
+    width:35%;
+    background-color: yellowgreen;
+    
+}
+
+.filter-img-link {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.filter-info {
+    /* border:1px solid black; */
+    position: absolute;
+    height:100%;
+    width: 63%;
+    right:0;
+    /* margin-top:5px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter-btn {
+    /* padding:15px 50px; */
+  background-color: white; 
+  width:25%;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  /* float: left; */
+}
+
+
+
+.filter-btn:hover {
+    background-color:whitesmoke;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(28, 248, 248, 0.616);
+}
+
+.country-btn {
+    /* padding:15px 50px; */
+  background-color: white; 
+  width:20%;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  /* float: left; */
+}
+
+.country-btn:hover {
+    background-color:whitesmoke;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(28, 248, 248, 0.616);
+}
+
+
+.page-search {
+    position: relative;
+    margin:25px 0;
+    padding:10px;
+}
+
+/* .page-search Button {
+    margin-left: 5px;
+    border-radius: 10px;
+} */
+
+.page-search-btn {
+    position:absolute;
+    margin: 9px 0 15px;
+    right:15px;
+    border-radius: 20px;
+}
+
+.all-reviews {
+    margin-top: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.card-all-reviews {
+    margin:15px 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pill-tags {
+    color:black;
+    background-color: #f0b3ff;
+    margin-right:3px;
+    
+}
+
+.pill-type {
+    color:black;
+    margin-right:3px;
+    background-color: #8080ff;
+}
+
+.pill-accom {
+    color:black;
+    margin-right:3px;
+    background-color: #ffb366;
+}
+
+.pill-rest {
+   color:black;
+   margin-right:3px;
+    background-color: #00b300; 
+}
+
+.pill-act {
+    color:black;
+    margin-right:3px;
+    background-color:#ff1a66;
+}
+
+.info-title{
+    padding-top:12px;
+}
+
+.info-title h5{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.info-sub-title {
+    padding-top: 15px;
+}
+
+.info-sub-title h6 {
+    font-weight: bold;
+}
+
+.info-btns {
+    position:absolute; 
+    top:89%;
+    right:3%;
+}
+
+.reviewed-by {
+    position:absolute;
+    font-style:italic;
+    font-weight: bold;
+    top:92%;
+    left:3%;
+}
+
+.review-desc {
+    font-style: italic;
+    padding-top:20px;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:426px) {
+    .page-title {
+        display:flex;
+        justify-content: center;
+        font-size:28px;
+    }
+    .home-title {
+        left:34%;
+        top:25%;
+        font-size:22px;
+    }
+    #box1{
+        margin:5px 12px;
+    }
+    #box2{
+        margin:5px 12px;
+    }
+    #box3{
+        margin:5px 12px;
+    }
+    .filter-result{
+        height:97vh;
+    }
+    .filter-img {
+        margin-left: 0;
+        height:35%;
+        width:100%;
+    }
+    .filter-img-link{
+        max-width:100%;
+        height:auto;
+        object-fit: cover;
+    }
+    .filter-info{
+        height:63vh;
+        width:100%;
+        margin-left: auto;
+        bottom:0;
+    }
+    .info-title {
+        margin-left:14px;
+    }
+
+    .info-title h5 {
+        font-size:17px;
+    }
+
+    .info-sub-title {
+        margin-left:14px;
+    }
+
+    .info-sub-title h6 {
+        font-size:14px;
+    }
+    .info p {
+        margin-left:10px;
+        font-size:15px;
+    }
+    .info-btns {
+        /* position: absolute; */
+        top:89%;
+        right:5%;
+    }
+    .page-title-display {
+        padding:20px;
+    }
+    .search-field {
+        margin-top:8px;
+    }
+    .reviewed-by {
+        top:92%;
+        font-size:13px;
+    }
+    .review-desc p{
+        padding-top:5px;
+        padding-right:5px;
+        font-size:12px;
+    }
+    .country-btn {
+        font-size:15px;
+        margin:6px;
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width:427px) {
+    .home-title {
+        left:50%
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .filter-section .filter-btn{
+        margin:6px;
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .each-card {
+        height:18vw;
+        object-fit: cover;
+    }
+    .home-title{
+        font-size:25px;
+        left:47%;
+        top:30%;
+    }
+    #box2{
+        padding:0 5px;
+        background-position: center;
+    }
+}
+
+
+
+@media screen and (max-width:769px){
+    .text {
+        font-size:20px;
+    }
+    .filter-btn {
+        font-size:16px;
+        padding: 15px 20px;
+    }
+    .page-title-display {
+        display:flex;
+        justify-content: center;
+        font-size:25px;
+    }
+    .filter-img-link {
+        max-width:100%;
+        height:100%;
+        background-size: contain;
+    }
+    .filter-info h4, h6{
+        font-size:15px;
+    }
+    .review-desc {
+        padding-top: 10px;
+        font-size:13px;
+    }
+    .reviewed-by {
+        font-size:13px;
+    }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
